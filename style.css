@@ -1,0 +1,54 @@
+.first{
+    font-family: 'Reem Kufi', sans-serif;
+    /*font-family: 'Cairo', sans-serif;
+ font-family: 'Markazi Text', serif;
+font-family: 'Amiri', serif;
+font-family: 'Tajawal', sans-serif;
+font-family: 'Changa', sans-serif;
+font-family: 'Lalezar', cursive;
+font-family: 'Lateef', cursive;
+font-family: 'Scheherazade', serif;
+font-family: 'El Messiri', sans-serif;
+font-family: 'Reem Kufi', sans-serif;
+font-family: 'Mada', sans-serif;
+font-family: 'Lemonada', cursive;
+font-family: 'Mirza', cursive;
+font-family: 'Baloo Bhaijaan', cursive;
+font-family: 'Aref Ruqaa', serif;
+font-family: 'Harmattan', sans-serif;
+font-family: 'Katibeh', cursive;
+font-family: 'Rakkas', cursive;
+font-family: 'Jomhuria', cursive; */
+    font-size: 50;
+}
+.second{
+    font-family: 'Rakkas', cursive;
+}
+.rang{
+    color: rgb(247, 162, 5);
+}
+.rtld{
+    direction: rtl;
+    color: gray;
+    text-align: right;
+}
+
+.third{
+    font-family: 'Reem Kufi', sans-serif;
+}
+.four{
+    font-family: 'Cairo', sans-serif;
+}
+
+#boxshadow::after {
+    content: '';
+    position: absolute;
+    z-index: -1; /* hide shadow behind image */
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);        
+    width: 90%; 
+    left: 0%; /* one half of the remaining 30% */
+    height: 100px;
+    bottom: 5px;
+  }
